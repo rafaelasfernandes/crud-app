@@ -15,7 +15,7 @@ class Cerveja(models.Model):
     estabelecimento = models.CharField(max_length=50)
     marca = models.CharField(max_length=50)
     tipo = models.CharField(max_length=50)
-    volume = models.FloatField()
+    valor = models.FloatField()
 
     def __str__(self):
         return self.marca
